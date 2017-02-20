@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jane Doette - Portofolio</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <!-- Page container -->
+    <div class="container">
+
+      <!-- Page header -->
+      <header class="row">
+
+        <!-- Logo -->
+        <div class="col-md-6">
+          <img class="title-logo" src="images/logo.svg" alt="Udacity logo">
+        </div>
+
+        <!-- Name and Title -->
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">Jane Doette</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </header>
+
+      <!-- Horizontal rule -->
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="hr-header">
+        </div>
+      </div>
+
+      <!-- Horizontal rule -->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive cover-img" src="images/html.jpg" alt="HTML code">
+        </div>
+      </div>
+
+      <!-- Featured work -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured work</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+        <!-- Appify -->
+        <div class="col-md-4 col-sm-12">
+          <img class="img-responsive featured-img" src="images/appify.jpg" alt="App store icon" data-toggle="modal" data-target="#appify">
+          <h3 class="text-uppercase work-title">Appify</h3>
+          <p>https://github.com/udacity/Appify/</p>
+        </div>
+
+        <!-- Sunflower -->
+        <div class="col-md-4 col-sm-12">
+          <img class="img-responsive featured-img" src="images/sunflower.jpg" alt="Sunflower" data-toggle="modal" data-target="#sunflower">
+          <h3 class="text-uppercase work-title">Sunflower</h3>
+          <p>https://github.com/udacity/Sunflower/</p>
+        </div>
+
+        <!-- Bokeh -->
+        <div class="col-md-4 col-sm-12">
+          <img class="img-responsive featured-img" src="images/bokeh.jpg" alt="Bokeh" data-toggle="modal" data-target="#bokeh">
+          <h3 class="text-uppercase work-title">Bokeh</h3>
+          <p>https://github.com/udacity/Bokeh/</p>
+        </div>
+      </div>
+
+    </div><!-- ./container -->
+
+    <!-- Appify Modal -->
+    <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="appify-Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="appify-label">Appify</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive featured-img" src="images/appify.jpg">
+                    <p class="lead modal-text">
+                      This was my first project in this class. I learned a lot about HTML and CSS. And also a lot about how to make a responsive websites using a Self-Built Framework or an Existing one like Bootstrap, Foundation, MDL and more.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sunflower Modal -->
+    <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="sunflower-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="sunflower-label">Sunflower</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive featured-img" src="images/sunflower.jpg">
+                    <p class="lead modal-text">
+                      This was my second project in this class. I learned a lot about HTML and CSS. And also a lot about how to make a responsive websites using a Self-Built Framework or an Existing one like Bootstrap, Foundation, MDL and more.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bokeh Modal -->
+    <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="bokeh-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="bokeh-label">Bokeh</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive featured-img" src="images/bokeh.jpg">
+                    <p class="lead modal-text">
+                      This was my third project in this class. I learned a lot about HTML and CSS. And also a lot about how to make a responsive websites using a Self-Built Framework or an Existing one like Bootstrap, Foundation, MDL and more.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
